@@ -1,0 +1,236 @@
+* {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+}
+
+body {
+  background: #12343b;
+  padding: 0;
+  min-height: 100vh;
+  width: 100%;
+}
+
+h1 {
+  text-shadow: -1px -1px 0 white, 1px -1px 0 white, -1px 1px 0 white, 1px 1px 0 white;
+}
+
+#astrata {
+  width: 100%;
+}
+
+main {
+  width: 50%;
+  margin: auto;
+}
+
+header, footer {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+}
+
+header > img {
+  display: block;
+  margin: auto;
+  border: 5px solid #c89666;
+  border-radius: 5%;
+}
+
+#quick-links {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding-top: 5px;
+  padding-right: 5px;
+  padding-left: 5px;
+  padding-bottom: 5px;
+  background: #e8f9fd;
+  box-sizing: border-box;
+  border: 5px solid #2d545e;
+}
+
+#about {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.719), 1px -1px 0 rgba(255, 255, 255, 0.719), -1px 1px 0 rgba(255, 255, 255, 0.719), 1px 1px 0 rgba(255, 255, 255, 0.719);
+  font-size: 24px;
+}
+
+#about-text-head {
+  text-align: center;
+}
+
+#about-text {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  background: #fff5d7;
+  box-sizing: border-box;
+  border: 5px solid #2d545e;
+}
+
+#projects {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.719), 1px -1px 0 rgba(255, 255, 255, 0.719), -1px 1px 0 rgba(255, 255, 255, 0.719), 1px 1px 0 rgba(255, 255, 255, 0.719);
+  font-size: 24px;
+}
+
+#projects-text {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: auto;
+  background: #e5eaf5;
+  box-sizing: border-box;
+  border: 5px solid #2d545e;
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.719), 1px -1px 0 rgba(255, 255, 255, 0.719), -1px 1px 0 rgba(255, 255, 255, 0.719), 1px 1px 0 rgba(255, 255, 255, 0.719);
+}
+
+#ozmium-youtube {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: auto;
+  background: #2d545e;
+  box-sizing: border-box;
+  border: 3px solid #fff5d7;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.719), 1px -1px 0 rgba(255, 255, 255, 0.719), -1px 1px 0 rgba(255, 255, 255, 0.719), 1px 1px 0 rgba(255, 255, 255, 0.719);
+}  
+
+#frew-up {
+  border: 3px solid #12343b;
+  border-radius: 5%;
+}
+
+#music {
+  text-align: center;
+  display: block;
+  width: 100%;
+  margin: auto;
+  background: #2d545e;
+  box-sizing: border-box;
+  border: 3px solid #fff5d7;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.719), 1px -1px 0 rgba(255, 255, 255, 0.719), -1px 1px 0 rgba(255, 255, 255, 0.719), 1px 1px 0 rgba(255, 255, 255, 0.719);
+}  
+
+#spotify {
+  border: 3px solid #12343b;
+  border-radius: 5%;
+}
+
+#the-team{
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-right: 50px;
+  padding-left: 50px;
+  padding-bottom: 20px;
+  background: #2d545e;
+  box-sizing: border-box;
+  border: 3px solid #fff5d7;
+}
+
+#team-title {
+  text-align: center;
+  font-size: 24px;
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.719), 1px -1px 0 rgba(255, 255, 255, 0.719), -1px 1px 0 rgba(255, 255, 255, 0.719), 1px 1px 0 rgba(255, 255, 255, 0.719);
+}
+
+#team-1 {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background: #fff5d7;
+  box-sizing: border-box;
+  border: 3px solid #12343b;
+}
+
+#nathan-pic {
+  height: 115px;
+  width: 115px;
+  border-radius: 15%;
+  border: 2px solid #2d545e;
+}
+
+#team-2 {
+  text-align: right;
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background: #fff5d7;
+  box-sizing: border-box;
+  border: 3px solid #12343b;
+}
+
+#team-2-text {
+  text-align: right;
+}
+
+#patches-pic {
+  height: 115px;
+  width: 115px;
+  border-radius: 15%;
+  border: 2px solid #2d545e;
+}
+
+#team-3 {
+  display: block;
+  width: 100%;
+  margin: auto;
+  padding-top: 20px;
+  padding-right: 20px;
+  padding-left: 20px;
+  padding-bottom: 20px;
+  background: #fff5d7;
+  box-sizing: border-box;
+  border: 3px solid #12343b;
+}
+
+#atlaes-pic {
+  height: 115px;
+  width: 115px;
+  border-radius: 15%;
+  border: 2px solid #2d545e;
+}
+
+#contact {
+  text-align: center;
+  width: 75%;
+  margin: auto;
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.719), 1px -1px 0 rgba(255, 255, 255, 0.719), -1px 1px 0 rgba(255, 255, 255, 0.719), 1px 1px 0 rgba(255, 255, 255, 0.719);
+  font-size: 24px;
+}
+
+#love {
+  margin: auto;
+  height: 25%;
+  width: 25%;
+  font-weight: 900;
+  text-shadow: -1px -1px 0 rgba(255, 255, 255, 0.719), 1px -1px 0 rgba(255, 255, 255, 0.719), -1px 1px 0 rgba(255, 255, 255, 0.719), 1px 1px 0 rgba(255, 255, 255, 0.719);
+  text-decoration: underline;
+  border: 5px solid #2d545e;
+  box-sizing: border-box;
+  background-color: #e8f9fd;
+}
