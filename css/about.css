@@ -1,0 +1,171 @@
+body {
+  background-color: #f0f0f0;
+}
+html {
+  -webkit-text-size-adjust: 100%;
+}
+
+/* Style for the header section */
+header {
+  padding: 1.65em 27px;
+  background-image: linear-gradient(rgba(231, 231, 231, 1), rgba(231, 231, 231, 0.87)), url(../img/burrowbackground.jpg);
+  align-items: center;
+  margin: auto;
+  border-radius: 4px;
+  border: 1px solid #0b8f5f;
+}
+
+/* Style for the title and socials section */
+.header-wrap {
+  display: flex;
+  align-items: center;
+  max-width: 1000px;
+  margin: auto;
+}
+.site-name {
+  font-size: 30px;
+  font-weight: bold;
+  color: rgb(34, 34, 34);
+  white-space: nowrap;
+  margin: -5px 0 0;
+  padding-left: 10px;
+}
+.site-title {
+  font-size: 20px;
+  font-weight: normal;
+  white-space: nowrap;
+  margin: -2px 0 0;
+  padding-left: 10px;
+}
+.butIcon {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 40px;
+  padding-top: 15px;
+  transition: transform 1s ease;
+}
+.butIcon img:hover {
+  transform: scale(1.3);
+}
+
+/* Style for the website navigation section */
+.topnav {
+  overflow: hidden;
+  background-color: white;
+  border-radius: 4px;
+  border: 1px solid #0b8f5f;
+  padding: 15px 0;
+  max-width: 1100px;
+  margin: auto;
+  text-align: center;
+}
+.topnav a {
+  display: inline-block;
+  text-align: center;
+  color: black;
+  margin: 0 10px;
+  padding: 14px 30px;
+  text-decoration: none;
+  font-size: 17px;
+  transition: background-color 0.3s ease, transform 0.3s ease;
+}
+.topnav a:hover {
+  background-color: #efefef;
+  color: black;
+  transform: scale(1.6);
+}
+
+/* Style for the main content section */
+main {
+  padding: 2px;
+  background-color: white;
+  margin: auto;
+  border-radius: 4px;
+  border: 1px solid #0b8f5f;
+  max-width: 1000px;
+}
+.welcome-message {
+  font-size: 20px;
+  font-weight: bold;
+  color: #ffffff;
+  text-align: center;
+  margin-bottom: 20px;
+  background-color: rgb(44, 44, 44);
+  padding: 5px;
+}
+.tpaboutimage {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  transition: transform 0.3s ease;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.tpaboutimage:hover {
+  transform: scale(1.05);
+}
+.main-body-paragraph-heading {
+  font-size: 22px;
+  font-weight: bold;
+  margin-bottom: 10px;
+  padding: 0 15px;
+  text-align: center;
+  letter-spacing: 4px;
+}
+.main-body-text {
+  margin: auto;
+  max-width: 80%;
+  text-align: center;
+  color: rgb(65, 65, 65);
+  font-size: 16px;
+  line-height: 1.6;
+  margin-bottom: 20px;
+  padding: 0 15px;
+  font-family: 'Merriweather', serif;
+}
+.aboutYoutube {
+  display: block;
+  margin: 20px auto;
+  border-radius: 8px;
+  max-width: 100%;
+}
+
+/* Style for the footer section */
+footer {
+    padding: 1.65em 27px;
+    background-color: rgb(44, 44, 44);
+    color: white;
+    font-size: 15px;
+    font-family: 'Play', sans-serif;
+    padding-top: 25px;
+    padding-bottom: 25px;
+    margin-top: 20px;
+    border-radius: 4px;
+}
+.footer-wrapper {
+  display: block;
+  align-items: center;
+  max-width: 80%;
+  margin: auto;
+}
+.rightsreserved {
+  white-space: nowrap;
+  margin: -5px 0 0;
+  padding-top: 5px;
+  text-align: center;
+}
+.butIconbottom {
+  width: 100%;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  gap: 25px;
+  transition: transform 1s ease;
+}
+.butIconbottom img:hover {
+  transform: scale(1.3);
+}
